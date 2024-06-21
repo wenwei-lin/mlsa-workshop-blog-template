@@ -1,0 +1,30 @@
+
+.intro-container {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-content {
+  display: grid;
+  gap: 8px;
+}
+
+.intro-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.intro-content a {
+  display: inline-block;
+  color: #0077cc;
+  text-decoration: underline;
+  margin: 0 2px;
+}
+
+.home-illustration {
+  width: 100%;
+  max-width: 520px;
+}
+
