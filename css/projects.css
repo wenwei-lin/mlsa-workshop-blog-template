@@ -1,8 +1,8 @@
-.projects {
+main {
   margin-top: 48px;
 }
 
-.projects h2 {
+main h2 {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
@@ -74,7 +74,7 @@
 
 .project-tags li {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 1px 8px;
   border: 1px solid #999;
   border-radius: 6px;
   color: #333;
