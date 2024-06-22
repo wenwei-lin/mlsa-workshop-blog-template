@@ -1,0 +1,81 @@
+.projects {
+  margin-top: 48px;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.project-list {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 96px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #111;
+  border-radius: 8px;
+}
+
+.project-icon-container {
+  padding: 18px 0;
+  background: #f6f6f6;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.project-icon {
+  height: 120px;
+  object-fit: scale-down;
+  display: block;
+  margin: 0 auto;
+}
+
+.project-content-container {
+  height: 100%;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-type {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #666;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.project-title h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.project-title p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.project-tags {
+  display: flex;
+  gap: 6px;
+}
+
+.project-tags li {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  color: #333;
+}
